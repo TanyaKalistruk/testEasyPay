@@ -1,0 +1,5 @@
+ADMIN_EMAIL = "admin1@gmail.com"
+INSPECTOR_EMAIL = "inspector1@gmail.com"
+MANAGER_EMAIL = "manager1@gmail.com"
+USER_EMAIL = "user1@gmail.com"
+PASSWORD = "Admin123"

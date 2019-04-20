@@ -1,0 +1,196 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\logging\__init__.py", line 1037, in emit
+    stream.write(msg + self.terminator)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\ue007' in position 48: character maps to <undefined>
+Call stack:
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python37-32\Scripts\pytest.exe\__main__.py", line 9, in <module>
+    sys.exit(main())
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\config\__init__.py", line 76, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 218, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 185, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 225, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 246, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 77, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 86, in runtestprotocol
+    rep = call_and_report(item, "setup", log)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 172, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 196, in call_runtest_hook
+    treat_keyboard_interrupt_as_exception=item.config.getvalue("usepdb"),
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 212, in __init__
+    self.result = func()
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 194, in <lambda>
+    lambda: ihook(item=item, **kwds),
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 115, in pytest_runtest_setup
+    item.session._setupstate.prepare(item)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 381, in prepare
+    col.setup()
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\python.py", line 1429, in setup
+    fixtures.fillfixtures(self)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 297, in fillfixtures
+    request._fillfixtures()
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 470, in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 517, in getfixturevalue
+    return self._get_active_fixturedef(argname).cached_result[0]
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 540, in _get_active_fixturedef
+    self._compute_fixture_value(fixturedef)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 626, in _compute_fixture_value
+    fixturedef.execute(request=subrequest)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 927, in execute
+    return hook.pytest_fixture_setup(fixturedef=self, request=request)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 969, in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\fixtures.py", line 828, in call_fixture_func
+    res = fixturefunc(**kwargs)
+  File "C:\курсова\EasyPayTeamTwo\tests\conftest.py", line 46, in inspector_counter
+    return inspector_setup.open_counters_page()\
+  File "C:\курсова\EasyPayTeamTwo\src\PageObjects\counters_page.py", line 31, in choose_address
+    self.send_keys_to_element(Keys.ENTER, PathToCounters.ADDRESS_INPUT)
+  File "C:\курсова\EasyPayTeamTwo\src\PageObjects\page.py", line 70, in send_keys_to_element
+    % (data, locator, locator_type))
+Message: ' Data \ue007 successfully send to element with locator: //input[@class="form-control combobox"] and locator type: xpath'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\logging\__init__.py", line 1037, in emit
+    stream.write(msg + self.terminator)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\ue007' in position 48: character maps to <undefined>
+Call stack:
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python37-32\Scripts\pytest.exe\__main__.py", line 9, in <module>
+    sys.exit(main())
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\config\__init__.py", line 76, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 218, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 185, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 225, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\main.py", line 246, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 77, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 92, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 172, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 196, in call_runtest_hook
+    treat_keyboard_interrupt_as_exception=item.config.getvalue("usepdb"),
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 212, in __init__
+    self.result = func()
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 194, in <lambda>
+    lambda: ihook(item=item, **kwds),
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\runner.py", line 122, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\python.py", line 1425, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\hooks.py", line 284, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 67, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\manager.py", line 61, in <lambda>
+    firstresult=hook.spec.opts.get("firstresult") if hook.spec else False,
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\asus\appdata\local\programs\python\python37-32\lib\site-packages\_pytest\python.py", line 166, in pytest_pyfunc_call
+    testfunction(**testargs)
+  File "C:\курсова\EasyPayTeamTwo\tests\test_inspector\test_counter_value.py", line 21, in test_valid_counter_value
+    counter.choose_address()
+  File "C:\курсова\EasyPayTeamTwo\src\PageObjects\counters_page.py", line 31, in choose_address
+    self.send_keys_to_element(Keys.ENTER, PathToCounters.ADDRESS_INPUT)
+  File "C:\курсова\EasyPayTeamTwo\src\PageObjects\page.py", line 70, in send_keys_to_element
+    % (data, locator, locator_type))
+Message: ' Data \ue007 successfully send to element with locator: //input[@class="form-control combobox"] and locator type: xpath'
+Arguments: ()

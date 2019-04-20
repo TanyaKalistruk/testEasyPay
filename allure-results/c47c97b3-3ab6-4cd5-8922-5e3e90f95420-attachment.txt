@@ -1,0 +1,38 @@
+page.py                     43 INFO     Element with locator: email By type: id  Found!
+page.py                     43 INFO     Element with locator: email By type: id  Found!
+page.py                     70 INFO      Data manager1@gmail.com successfully send to element with locator: email and locator type: id
+page.py                     43 INFO     Element with locator: password By type: id  Found!
+page.py                     43 INFO     Element with locator: password By type: id  Found!
+page.py                     70 INFO      Data Admin123 successfully send to element with locator: password and locator type: id
+page.py                     43 INFO     Element with locator: Login_button By type: id  Found!
+page.py                     56 INFO     Click on element with locator: Login_button and locator type: id
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="display-name"] appeared on the page
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //div[@class="menu_section"] appeared on the page
+page.py                     43 INFO     Element with locator: //*[@id="sidebar-menu"]/div/ul/li[1]/a By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //*[@id="sidebar-menu"]/div/ul/li[1]/a and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="tab-inspectors"]//a[@href="/manager/schedule/inspector/110/"] appeared on the page
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="display-name"] appeared on the page
+page.py                     43 INFO     Element with locator: //*[@id="tab-inspectors"]//a[@href="/manager/schedule/inspector/110/"] By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //*[@id="tab-inspectors"]//a[@href="/manager/schedule/inspector/110/"] and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="manager-calendar"]/div[1]/div[2]/button appeared on the page
+page.py                     43 INFO     Element with locator: //*[@id="manager-calendar"]/div[1]/div[2]/button By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //*[@id="manager-calendar"]/div[1]/div[2]/button and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="datetimepicker"] appeared on the page
+page.py                     43 INFO     Element with locator: //button[@class="btn btn-primary js-add-apply"] By type: xpath  Found!
+page.py                    102 INFO     Element with locator //button[@class="btn btn-primary js-add-apply"] and locator type: xpath Found!
+page.py                     43 INFO     Element with locator: //button[@class="btn btn-primary js-add-apply"] By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //button[@class="btn btn-primary js-add-apply"] and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //li[@class="address-error"] appeared on the page
+page.py                     43 INFO     Element with locator: //li[@class="address-error"] By type: xpath  Found!
+page.py                    140 INFO     Element with locator //li[@class="address-error"] and locator type: xpath Found!
+page.py                     43 INFO     Element with locator: //*[@id="add-modal"]/div/div/div[1]/button By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //*[@id="add-modal"]/div/div/div[1]/button and locator type: xpath
+page.py                    153 INFO     Waiting for maximum: 20 for element to disappear from the page
+page.py                    158 INFO     Element with locator: //*[@id="add-modal"]/div/div/div[1]/button disappeared from the page

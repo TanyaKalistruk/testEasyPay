@@ -1,0 +1,1 @@
+{"uuid": "fc695332-0221-4e34-9807-42b0c5afbf35", "children": ["30e868f4-a52c-4665-97f8-f3e894d13b14"], "befores": [{"name": "get_inspector_schedule_from_manager", "status": "passed", "start": 1555703033385, "stop": 1555703034669}], "start": 1555703033385, "stop": 1555703038984}

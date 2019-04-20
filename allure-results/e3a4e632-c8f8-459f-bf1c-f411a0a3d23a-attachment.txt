@@ -1,0 +1,38 @@
+page.py                     43 INFO     Element with locator: email By type: id  Found!
+page.py                     43 INFO     Element with locator: email By type: id  Found!
+page.py                     70 INFO      Data inspector1@gmail.com successfully send to element with locator: email and locator type: id
+page.py                     43 INFO     Element with locator: password By type: id  Found!
+page.py                     43 INFO     Element with locator: password By type: id  Found!
+page.py                     70 INFO      Data Admin123 successfully send to element with locator: password and locator type: id
+page.py                     43 INFO     Element with locator: Login_button By type: id  Found!
+page.py                     56 INFO     Click on element with locator: Login_button and locator type: id
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="display-name"] appeared on the page
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //div[@class="menu_section"] appeared on the page
+page.py                     43 INFO     Element with locator: //*[@id="sidebar-menu"]/div/ul/li[2]/a By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //*[@id="sidebar-menu"]/div/ul/li[2]/a and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //div[@class="x_panel"] appeared on the page
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="display-name"] appeared on the page
+page.py                     43 INFO     Element with locator: //input[@class="form-control combobox"] By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //input[@class="form-control combobox"] and locator type: xpath
+page.py                     43 INFO     Element with locator: //input[@class="form-control combobox"] By type: xpath  Found!
+page.py                     70 INFO      Data Кафедральна вулиця 1, Чернівці, Чернівецька область successfully send to element with locator: //input[@class="form-control combobox"] and locator type: xpath
+page.py                     43 INFO     Element with locator: //input[@class="form-control combobox"] By type: xpath  Found!
+page.py                     70 INFO      Data  successfully send to element with locator: //input[@class="form-control combobox"] and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //*[@id="countersTable"]/tbody/tr appeared on the page
+page.py                     43 INFO     Element with locator: //td[@class="oldValue"] By type: xpath  Found!
+page.py                     43 INFO     Element with locator: //button[@class="btn btn-primary change-value"] By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //button[@class="btn btn-primary change-value"] and locator type: xpath
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //h4[@id="myModalLabel"] appeared on the page
+page.py                    113 INFO     Waiting for maximum: 20 for element to be visible on the page
+page.py                    118 INFO     Element with locator: //input[@id="newCurrentValue"] appeared on the page
+page.py                     43 INFO     Element with locator: //input[@id="newCurrentValue"] By type: xpath  Found!
+page.py                     70 INFO      Data 5 successfully send to element with locator: //input[@id="newCurrentValue"] and locator type: xpath
+page.py                     43 INFO     Element with locator: //button[@class="btn btn-primary js-apply"] By type: xpath  Found!
+page.py                     56 INFO     Click on element with locator: //button[@class="btn btn-primary js-apply"] and locator type: xpath
+page.py                     47 ERROR    Element with locator: //*[@id="confirm-dialog"] By type: xpath  Not Found!
