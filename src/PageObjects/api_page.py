@@ -21,5 +21,5 @@ class Api:
         return requests.request('PUT', url, json=params, cookies=cookies)
 
     @staticmethod
-    def delete_params(url, cookies=None):
+    def delete_params(params, url, cookies=None):
         return requests.request('DELETE', url, json=params, cookies=cookies)

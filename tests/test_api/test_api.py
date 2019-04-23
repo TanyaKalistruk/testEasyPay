@@ -21,9 +21,9 @@ def test_change_price():
 def test_delete_inspector():
     with DBConnection() as db:
         if db.check_delete_inspector() != 0:
-            cookie_login = login_api(MANAGER_EMAIL, PASSWORD)
+            cookie_login = Api.login_api(MANAGER_EMAIL, PASSWORD)
             params = "109"
-            request = delete_params(params, url_delete_inspector, cookies=cookie_login)
+            request = Api.delete_params(params, url_delete_inspector, cookies=cookie_login)
             with allure.step('It is valid id for inspector'):
                 assert request.status_code == 200
 
@@ -31,8 +31,8 @@ def test_delete_inspector():
 def test_add_inspector():
     with DBConnection() as db:
         if db.check_delete_inspector() == 0:
-            cookie_login = login_api(MANAGER_EMAIL, PASSWORD)
+            cookie_login = Api.login_api(MANAGER_EMAIL, PASSWORD)
             params = "109"
-            request = put_params(params, url_add_inspector, cookies=cookie_login)
+            request = Api.put_params(params, url_add_inspector, cookies=cookie_login)
             with allure.step('It is valid id for inspector'):
                 assert request.status_code == 200
