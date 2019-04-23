@@ -1,6 +1,6 @@
-# EasyPayTeamTwo
+# testEasyPay
 
-EasyPayTeamTwo is a Python Selenium Tests for "EasyPay" web app.
+testEasyPay is a Python Selenium Tests for "EasyPay" web app.
 
 ## Prerequisites
 Python 3.6.5
